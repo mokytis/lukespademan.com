@@ -104,7 +104,11 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "gitlab"
-    url  = "https://gitlab.com/lukespademan"
+    url  = "https://gitlab.com/mokytis"
+  
+  [[params.social]]
+    name = "instagram"
+    url  = "https://instagram.com/mokytis"
 
 
 [languages]
