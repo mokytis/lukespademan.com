@@ -1,0 +1,4 @@
+Contact: mailto:info@lukespademan.com
+Preferred-Languages: en
+Canonical: https://lukespademan.com/.well-known/security.txt
+
