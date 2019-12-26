@@ -32,7 +32,7 @@ I am going to be using python to control the printer.
 One library that allows us to do this is `python-escpos`.
 To install it run `pip install python-escpos`.
 
-A simple script may look like this.
+A "Hello, World!" script may look like this.
 
 ```python
 from escpos.printer import Usb
@@ -47,7 +47,7 @@ p.cut()  # prints a few empty lines and cuts the paper (if the printer supports 
 ## Printing Images
 
 The printer and python library also allow you to print black and white images.
-This is very simple to do.
+You can do this with a small ammendment to your previous code.
 
 ```python
 from escpos.printer import Usb
@@ -131,7 +131,7 @@ To fix this I made a parser in python that interpets a DSL I have just created a
 
 ### Example Script
 
-I want to DSL to be simple.
+I want to DSL to be simple (relativley to other markup languages like HTML).
 Here is an exmaple of what I want a script to look like
 
 ```plain
