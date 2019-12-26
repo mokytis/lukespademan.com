@@ -4,6 +4,8 @@ date: 2019-12-26T15:33:53Z
 draft: false
 toc: true
 images:
+aliases:
+    - /posts/2019/12/thermal-printer/
 tags:
   - christmas
   - thermal-printer
