@@ -1,5 +1,5 @@
 ---
-title: "Thermal Printer"
+title: "Tutorial: Thermal Printer"
 date: 2019-12-26T15:33:53Z
 draft: false
 toc: true
@@ -8,6 +8,7 @@ tags:
   - christmas
   - thermal-printer
   - escpos
+  - tutorial
 ---
 
 ## The backstory
