@@ -131,7 +131,7 @@ To fix this I made a parser in python that interpets a DSL I have just created a
 
 ### Example Script
 
-I want to DSL to be simple (relativley to other markup languages like HTML).
+I want to DSL (Domain Specific Language) to be simple (relativley to other markup languages like HTML).
 Here is an exmaple of what I want a script to look like
 
 ```plain
