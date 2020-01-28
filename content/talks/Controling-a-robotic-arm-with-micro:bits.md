@@ -2,6 +2,10 @@
 title: "Controling a Robotic Arm With Micro:bits. How to make computer science education more interesting."
 date: 2019-05-03T00:00:00Z
 draft: false
+tags:
+    - python
+    - microbit
+    - education
 ---
 
 ## Overview
