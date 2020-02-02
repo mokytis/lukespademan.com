@@ -12,8 +12,12 @@ I am an advocate for open source software and enjoy programming in python and ot
 
 As a STEM Ambassador I volunteer at a local codeclub and encourage students to become digital innovators, not just consumers.
 
-If you want to support me financially you can do so via [monzo](https://monzo.me/lukespademan) or [ko-if](https://www.ko-fi.com/mokytis).
-All donations are greatly appreciated.
+I am dyslexic.
+A lot of people see dyslexia as a disability or disadvantage, but this is not the case.
+Here are a couple of video from [Made By Dyslexia](http://madebydyslexia.org) about dyslexia.
+
+{{< youtube CYM40HN82l4 >}}
+{{< youtube gtFKNPrJhJ4 >}}
 
 ## About This Site
 
@@ -23,3 +27,8 @@ This site is available at:
 
 * [lukespademan.com](https://lukespademan.com)
 * [tohihqtc2oxeujjf.onion](http://tohihqtc2oxeujjf.onion)
+
+## Support
+
+If you want to support me financially you can do so via [monzo](https://monzo.me/lukespademan) or [ko-if](https://www.ko-fi.com/mokytis).
+All donations are greatly appreciated.
