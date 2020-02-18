@@ -86,7 +86,7 @@ radio.on()
 x_image = Image(
         "90009:"\
         "09090:"\
-        "00900:"\ 
+        "00900:"\
         "09090:"\
         "90009:")  # This displays an x on the screen
 images = {
