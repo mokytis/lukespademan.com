@@ -130,3 +130,7 @@ disableHugoGeneratorInject = false
     identifier = "talks"
     name       = "Talks"
     url        = "talks/"
+  [[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "contact/"
