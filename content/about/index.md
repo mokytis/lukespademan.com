@@ -26,7 +26,7 @@ If you want to learn more about dyslexia I would adivse checking them out.
 
 ## About This Site
 
-This site was genrated using the [hugo static site genrator](https://gohugo.io) with the [Hello Friend NG](https://github.com/rhazdon/hugo-theme-hello-friend-ng) theme.
+This site was genrated using the [hugo static site genrator](https://gohugo.io) and [my modified version of the Hello Friend NG](https://gitlab.com/mokytis/hello-friend-ng) theme.
 If is hosted on [netlify](https://www.netlify.com/) and you can find the source on my [gitlab](https://gitlab.com/mokytis/hugo-site).
 
 This site is available at:
