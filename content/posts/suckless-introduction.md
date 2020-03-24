@@ -31,7 +31,7 @@ If you want to learn more about how to use git I would advise looking at [Roger 
 Most command line tools / programs either have a man page or a help option.
 This means if you can confused about a command, e.g. A`patch`, you can run `man patch` or `patch --help` to get some useful information about how to use it.
 
-I am my no means an expert.
+I am by no means an expert.
 
 I am writing this blog post as an attempt to be helpful and benefit the community.
 If you have any suggestions, spot a mistake, have something to add, or think I have misunderstood anything: feel free to either email me or tweet or something like that.
