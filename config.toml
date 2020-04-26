@@ -103,9 +103,13 @@ disableHugoGeneratorInject = false
     url  = "mailto:info@lukespademan.com"
 
   [[params.social]]
+    name = "keybase"
+    url  = "https://keybase.io/lukespademan"
+
+  [[params.social]]
     name = "gitlab"
     url  = "https://gitlab.com/mokytis"
-  
+
   [[params.social]]
     name = "instagram"
     url  = "https://instagram.com/mokytis"
