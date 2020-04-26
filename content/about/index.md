@@ -6,12 +6,20 @@ draft: False
 
 ## About Me
 
+### Summary
+
 My name is Luke Spademan.
-I am 18 years old and am currently in sixth form studying: Maths, Further Maths, Computer Science, Physics.
+Amongst other things, I am
+* A Student
+* An advocate of opensouce software
+* A STEM Ambassador
+* Dyslexic
 
-I advocate the use of open source software and enjoy programming in python and other languages.
+### GPG
 
-As a STEM Ambassador I volunteer at a local codeclub and encourage students to become digital innovators, not just consumers.
+My GPG Fingerprint: `1CB6 795D DE37 4C7D 115C  17F7 0F40 BC82 FD32 72E3`
+
+### Dyslexia
 
 I am dyslexic.
 Many people view dyslexia as being nothing but a disability.
