@@ -23,6 +23,7 @@ My GPG Fingerprint: `1CB6 795D DE37 4C7D 115C  17F7 0F40 BC82 FD32 72E3`
 
 I am dyslexic.
 Many people view dyslexia as being nothing but a disability.
+This is not the case.
 
 > "Dyslexic minds process information differently.
 > Our divergent, lateral thinking has created some of the world's greatest inventions, brands and art.
