@@ -2,6 +2,7 @@
 title: "About"
 date: 2019-12-20T16:03:11Z
 draft: False
+toc: True
 ---
 
 ## About Me
@@ -44,7 +45,3 @@ This site is available at:
 * [lukespademan.com](https://lukespademan.com)
 * [tohihqtc2oxeujjf.onion](http://tohihqtc2oxeujjf.onion)
 
-## Support Me
-
-If you want to support me financially you can do so via [monzo](https://monzo.me/lukespademan) or [ko-if](https://www.ko-fi.com/mokytis).
-All donations are greatly appreciated.
