@@ -1,7 +1,7 @@
 ---
 title: "Why I left Lastpass for Bitwarden"
 date: 2020-04-12T14:28:35Z
-draft: false
+draft: true
 toc: true
 images:
 tags:
