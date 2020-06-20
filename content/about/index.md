@@ -43,5 +43,5 @@ If is hosted on [netlify](https://www.netlify.com/) and you can find the source 
 This site is available at:
 
 * [lukespademan.com](https://lukespademan.com)
-* [tohihqtc2oxeujjf.onion](http://tohihqtc2oxeujjf.onion)
+* [http://6dgi7bwddchedxakxnbr24dykibuzua7if7doq2xyr7j3muwthqvojad.onion/](http://6dgi7bwddchedxakxnbr24dykibuzua7if7doq2xyr7j3muwthqvojad.onion/)
 
