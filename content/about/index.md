@@ -7,15 +7,8 @@ toc: True
 
 ## About Me
 
-### Summary
-
-My name is Luke Spademan.
-Amongst other things, I am
-
-* A Student
-* An advocate of opensouce software
-* A STEM Ambassador
-* Dyslexic
+Hey! My name is Luke Spademan. I am a dyslexic Cyber Security student who
+advocates the use of open source software.
 
 ### GPG
 
