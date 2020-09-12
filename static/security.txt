@@ -1,4 +1,4 @@
-Contact: mailto:info@lukespademan.com
+Contact: mailto:security@lukespademan.com
 Encryption: https://lukespademan.com/pgp-key.txt
 Preferred-Languages: en
 Canonical: https://lukespademan.com/.well-known/security.txt
