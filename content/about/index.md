@@ -26,7 +26,7 @@ This is not the case.
 > -- [Made By Dyslexia](http://madebydyslexia.org)
 
 I have found that the resources and information put together by [Made By Dyslexia](http://madebydyslexia.org) to be very enlightening.
-If you want to learn more about dyslexia I would adivse checking them out.
+If you want to learn more about dyslexia I would advise checking them out.
 
 ## About This Site
 
