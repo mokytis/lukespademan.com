@@ -1,7 +1,7 @@
 ---
 title: "The Dangers of curl | bash"
 date: 2021-01-12T12:23:11Z
-draft: true
+draft: false
 toc: true
 images:
 tags:
