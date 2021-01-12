@@ -21,7 +21,7 @@ A few examples are [rustup](https://rustup.rs/),
 [zerotier](https://github.com/zerotier/install.zerotier.com), and
 [pyenv](https://github.com/pyenv/pyenv-installer).
 
-_But why is it dangerous_ you ask? _Surely if [people on the internet advokate
+_But why is it dangerous_ you ask? _Surely if [people on the internet advocate
 the use of it](https://gist.github.com/btm/6700524) then it must fine?_ Well, it
 depends what your definition of _fine_ is.
 
@@ -30,7 +30,7 @@ look at, two briefly and one in more detail.
 
 From here on out I'll be using:
 
-* `curl | bash` to refer to a command that downloads a file and sents the
+* `curl | bash` to refer to a command that downloads a file and sends the
   content via stdout to a shell (and example of a command like this being `curl
   https://install.example.com/ | sudo bash`)
 * `$URL` to refer to the URL of the resource being being downloaded (in the
@@ -53,7 +53,7 @@ A Machine in the Middle attack is when an attacker is in the middle on your
 communication. This would allow them to modify the script as it is being
 downloaded allowing them to run malicious commands on your machine.
 
-A few ways to migigate this are by:
+A few ways to mitigate this are by:
 
 1. Using TLS. Curl will throw an error if a website has invalid TLS
    certificates. This means that if the script you are piping into bash uses
@@ -81,8 +81,8 @@ which explains part of why this works but does not provide a proof of concept.
 This was posted in 2016 and I haven't been able to find much else out this.
 
 As mentioned in section 1, if the content being downloaded is over a certain
-size then bash will start exectuing commands before the whole file has been
-download. Curl will fill the a buffer, bash will read and execute the commands,
+size then bash will start executing commands before the whole file has been
+download. Curl will fill the buffer, bash will read and execute the commands,
 curl will fetch more data from the server and fill the buffer again. This whole
 process repeats until the whole script has been downloaded and executed by bash.
 
@@ -97,7 +97,7 @@ I am going to quickly walk you through the Proof of Concept (PoC) I made in go.
 
 Firstly I setup a simple go program that acts as an http server. It will listen
 on port `:8080` and send requests to a function called `handler` (which I am
-going to show you in the next sep).
+going to show you in the next step).
 
 ```go
 package main
@@ -174,8 +174,8 @@ func handler(res http.ResponseWriter, req *http.Request) {
 }
 ```
 
-Now we simply see if we waited around for at least a second (the lenght of the
-sleep) and if we did send the malicous payload.
+Now we simply see if we waited around for at least a second (the length of the
+sleep) and if we did send the malicious payload.
 
 ```go
 func handler(res http.ResponseWriter, req *http.Request) {
@@ -204,7 +204,7 @@ func handler(res http.ResponseWriter, req *http.Request) {
 ```
 
 This is a very simple PoC but you could easily make something more effective and
-discreate. If the user is `curl | bash`-ing a large install script that is
+discrete. If the user is `curl | bash`-ing a large install script that is
 larger than the buffer and has elements that take a while to execute, then you
 wouldn't need any `sleep` commands or large amounts of hidden whitespace to make
 this work.
