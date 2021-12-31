@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Hello!</h1>
+
+<p>I am a <a href="#about-cybersec">Cyber Security Student</a>, <a href="#about-sysadmin">Systems Administrator</a>, and
+<a href="#about-softwaredev">Software Developer</a>.</p>
+
+<p>If you want to hire me for a project, you can <a href="#contact">
+  contact me here</a>.</p>
+
+<section>
+  <h2 id="about">About</h2>
+  <article>
+    <h3 id="about-cybersec">Cyber Security</h3>
+    <p>I am currently studying Cyber Security at the University of Warwick.</p>
+
+    <p>I have an interest in:
+    <ul>
+      <li>Binary Analysis</li>
+      <li>Malware Analysis</li>
+      <li>Network Security</li>
+    </ul>
+    </p>
+
+    <p>You can find information about some of my public research on
+    <a href="/#blog"> my blog</a>.</p>
+  </article>
+
+  <article>
+    <h3 id="about-sysadmin">Systems Administrator</h3>
+    <p>I have a varitey of Linux Systems Administration experience. I am
+    currently the SysAdmin for <a href="https://radio.warwick.ac.uk">RAW</a>
+    and also maintain <a href="https://as212952.net">AS212952</a>.</p>
+  </article>
+  <article>
+    <h3 id="about-softwaredev">Software Developer</h3>
+    <p>I am a freelance software developer. I write backends on tools in Python
+    and Golang. I also maintain a few opensoure projects which you can find on
+    <a href="https://github.com/mokytis">my GitHub profile</a>.</p>
+  </article>
+</section>
+
+<section>
+  <h2 id="contact">Contact</h2>
+
+  <p>If you want to contact me, send an email to
+  <a href="mailto:contact@lukespademan.com">contact@lukespademan.com</a>.</p>
+</section>
+<section>
+  <h2 id="talks">Talks</h2>
+
+  <p>I sometimes speak at conferences. Here you can find a selection of some of my presentations</p>
+  <ul class="ls-talks-list">
+
+{% set section = get_section(path="talks/_index.md") %}
+{% for post in section.pages %}
+    <li class="ls-talks-item">
+      <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
+      {% if post.summary %}
+      <p class="ls-talks-desc">
+      {{ post.summary | safe }} <a href="{{ post.permalink }}">read more</a>
+      {% endif %}
+      </p>
+    </li>
+{% endfor %}
+  </ul>
+</section>
+
+<section>
+  <h2 id="blog">Blog</h2>
+
+  <ul class="ls-talks-list">
+
+{% set section = get_section(path="blog/_index.md") %}
+{% for post in section.pages %}
+    <li class="ls-talks-item">
+      <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
+      {% if post.summary %}
+      <p class="ls-talks-desc">
+      {{ post.summary | safe }} <a href="{{ post.permalink }}">read more</a>
+      {% endif %}
+      </p>
+    </li>
+{% endfor %}
+  </ul>
+</section>
+
+
+{% endblock content %}

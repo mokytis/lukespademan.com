@@ -9,9 +9,10 @@ tags:
     - django
 ---
 
-## Overview
 
 GitLab doesn't host your git repos, it also allows for continuous integration and deployment. This means that after pushing to the Git repo, your code is tested them deployed automatically.
+
+<!-- more -->
 
 Using this with Docker allows for fast Python deployments to production.
 

@@ -7,9 +7,10 @@ tags:
     - python
 ---
 
-## Overview
+What is beautiful code? What makes code beautiful? Why should I write beautiful code? These might be question you are currently asking yourself. In this talk I will not only answer these question but also give you a tour of PEP 8 (the official style guide for python).
+<!-- more -->
+During this 'tour' I will show you examples of both well formatted and badly formatted code and will explain the difference and why they are important.
 
-What is beautiful code? What makes code beautiful? Why should I write beautiful code? These might be question you are currently asking yourself. In this talk I will not only answer these question but also give you a tour of PEP 8 (the official style guide for python). During this 'tour' I will show you examples of both well formatted and badly formatted code and will explain the difference and why they are important.
 
 It can be hard to memorise all these 'rules'. Luckily for you, you don't have to. There are two types of tools I will go over that help you write nice looking code:
 

@@ -1,0 +1,101 @@
+@import url('/inter/inter.css');
+
+html {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #FBFCFF;
+  color: #01110A;
+}
+
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.ls-header {
+  display: flex;
+  align-items: center;
+  margin: 1rem 2rem;
+  gap: 2rem;
+  @media screen and (max-width: 500px) {
+    gap: 0;
+    flex-direction: column;
+  }
+}
+
+.ls-header-title {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.ls-nav-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  gap: 1rem;
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.ls-nav-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ls-talks-list {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.ls-talks-item {
+  min-width: 200px;
+  overflow: hidden;
+  flex: 1 3;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem 2rem;
+  background: #fff;
+  @media screen and (max-width: 500px) {
+    min-width: calc(100% - 4rem);
+    width: calc(100% - 4rem);
+  }
+}
+
+.ls-talks-desc {
+}
+
+main {
+  max-width: 700px;
+  width: calc(100% - 4rem);
+  margin: 0 auto;
+}
+
+main a, footer a {
+  color: #086788;
+}
+
+main p {
+  line-height: 1.25rem;
+}
+
+footer {
+  margin-top: 4rem;
+  padding: 4rem 4rem;
+  color: #FBFCFF;
+  background-color: #01110A;
+}
+
+pre {
+  padding: 1rem;
+}
